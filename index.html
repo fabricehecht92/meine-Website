@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrice Hecht</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1><a href="index.html" class="titlelink">Fabrice Hecht</a></h1>
+        <button id="menu-btn" aria-label="Menü öffnen">☰</button>
+    </header>
+
+    <!-- Begrüßung -->
+    <div class="welcome">
+	<div class="search-container">
+            <input type="text" id="search" placeholder="Suche...">
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+
+        <div class="text-background">
+            <p>Mein Name ist Fabrice Hecht, ich bin 32 Jahre alt und Full Stack Entwickler mit einem Schwerpunkt auf Webentwicklung. Ich arbeite gerne an Projekten, die nicht nur technisch spannend sind, sondern auch einen positiven gesellschaftlichen Beitrag leisten.</p>
+	    <p>Ich bringe Erfahrung mit verschiedenen Sprachen wie C, C++, C#, JavaScript, PHP und Python und diversen Datenbanksystemen mit. Mein Anspruch ist es, Probleme so lange anzugehen, bis ich die passende Lösung gefunden habe. So habe ich es bisher auch immer geschafft mich in Technologien oder Frameworks einzuarbeiten, die ich noch nicht kannte, aber die für vergangene Projekte notwendig waren.</p>
+	    <p>Lebenslauf, Kontaktmöglichkeiten und Projekte finden Sie im Menü oben rechts oder über die Suchfunktion.</p>
+	    <p>Ich freue mich, wenn wir ins Gespräch kommen!</p>
+        </div>
+    </div>
+
+    <!-- Menü (Overlay) -->
+    <div id="fullscreen-menu" class="fullscreen-menu">
+        <button id="close-menu-btn" aria-label="Menü schließen">✖</button>
+        <div class="menu-grid">
+            <div class="tile" onclick="window.location.href='lebenslauf.php'">Lebenslauf</div>
+            <div class="tile" onclick="window.location.href='projekte.html'">Projekte</div>
+            <div class="tile" onclick="window.location.href='kontakt.php'">Kontakt</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -69,21 +69,10 @@
 			    <td>Erweiterter Realschulabschluss, Sekundarschule A. Schweizer</td>
 			</tr>
 			<tr>
-			    <td>2011</td>
-			    <td>Praktika in den Bereichen: Verwaltung, Einzelhandel, Gastronomie</td>
+			    <td>2011 - 2014</td>
+			    <td>Diverse Jobs und Praktika</td>
 			</tr>
-			<tr>
-			    <td>2012</td>
-			    <td>Ausbildung Einzelhandelskaufmann, Hagebau Hettstedt</td>
-			</tr>
-			<tr>
-			    <td>2013</td>
-			    <td>Ausbildung Elektriker, Elektro- und Brandschutzgesellschaft Engelsdorf, Leipzig</td>
-			</tr>
-			<tr>
-			    <td>2014</td>
-			    <td>Fliesenleger, FLH Schaefer</td>
-			</tr>
+			
 			<tr>
 			    <td>2014 - 2016</td>
 			    <td>Ausbildung kaufmännischer Assistent für Informationsverarbeitung, Institut Braune Bernburg</td>

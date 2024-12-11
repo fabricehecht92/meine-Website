@@ -64,15 +64,15 @@ header h1 {
     transform: rotate(90deg);
 }
 
-/* Begrüßung */
+/* BegrÃ¼ÃŸung */
 .welcome {
-    text-align: start;
+    text-align: justify;
     margin: 4rem 0;
     width: 70%;
     margin-left: 15%;
 }
 
-/* Halbtransparente Box für Begrüßungstext */
+/* Halbtransparente Box fÃ¼r BegrÃ¼ÃŸungstext */
 .text-background {
     display: inline-block;
     background: rgba(0, 0, 0, 0.6); /* Dunkler, transparenter Hintergrund */
@@ -177,7 +177,7 @@ header h1 {
 
 }
 
-/* Vollbild-Menü */
+/* Vollbild-MenÃ¼ */
 .fullscreen-menu {
     display: none;
     position: fixed;
@@ -352,4 +352,82 @@ header h1 {
     width: 60%;
     margin-top: 2em;
     margin-left: 2rem;
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h2 {
+    margin-top: 0;
+    color: #6a89cc;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #6a89cc;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #6a79cc;
+}
+
+.circle-container {
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     margin: 0;           
+}
+
+.circle-container img {
+     width: 200px;
+     height: 200px;     
+     object-fit: cover;   
+     border-radius: 50%;  
+     border: 3px solid #ccc; 
+}
+
+@media only screen and (max-width: 600px) {
+
+.search-container {
+    position: relative;
+    width: 95%;
+    margin-bottom: 6rem;
+    float: left;
+}
+
+.welcome {
+    text-align: start;
+    /*margin: 4rem 0;*/
+    width: 70%;
+}
+
 }
